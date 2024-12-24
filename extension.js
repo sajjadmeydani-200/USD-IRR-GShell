@@ -37,14 +37,14 @@ async function handle_request_dollar_api() {
             const body_response = JSON.parse(response);
 
             // Get the value of Dollar Quotation
-            dollarQuotation = body_response["USDTRY"]["bid"];
+            dollarQuotation = body_response["price"];
             dollarQuotation = dollarQuotation.split(".");
             dollarQuotation = dollarQuotation[0] + "," + dollarQuotation[1].substring(0, 2);
 
             // Sext text in Widget
             panelButtonText = new St.Label({
             style_class : "cPanelText",
-                text: "(1 USD = " + dollarQuotation + " TRY)",
+                text: "(1 USD = " + dollarQuotation + " IRR)",
                 y_align: Clutter.ActorAlign.CENTER,
             });
             panelButton.set_child(panelButtonText);
