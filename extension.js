@@ -1,4 +1,4 @@
-// This extensions shows USD to TRY convertion on Gnome panel.
+// This extensions shows USD to IRR convertion on Gnome panel.
 //Copyright (C) 2023  arfiesat
 // See LICENSE file
 
@@ -94,5 +94,7 @@ export default class Extension {
             session.abort(session);
             session = null;
         }
+
+        panelButtonText = null;
     }
 }
