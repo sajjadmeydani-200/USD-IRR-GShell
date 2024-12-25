@@ -2,7 +2,7 @@
   "uuid": "usd-irr@sajjad.com",
   "name": "USD-IRR",
   "description": "USD (US Dollar) converted to IRR (Iranian Rial). Updates are received every 30 seconds.\n\nIt is a fork of Dollar-PKR. This extension uses economia.awesomeapi.com.br",
-  "version": 1,
-  "shell-version": ["46"],
+  "version": 3,
+  "shell-version": ["47"],
   "url": "https://github.com/sajjadmeydani-200/USD-IRR-GShell"
 }
