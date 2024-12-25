@@ -1,4 +1,4 @@
-# Dollar-TRY
+# Dollar-IRR
 ```
 Gnome-Shell v.(3.38, 40, 41, 42, 43, 44, 45, 46, 47) Extension, for conversion of USD to TRY on the center of the top panel.
 ```
@@ -15,7 +15,7 @@ Download via Gnome Extension Store: https://extensions.gnome.org/extension/7694/
 
 or
 
-cd /tmp && git [clone https://github.com/arifesat/USD-TRY-GShell](https://github.com/sajjadmeydani-200/USD-IRR-GShell) && mv USD-IRR-Gshell usd-irr@sajjad.com && cp -av usd-irr@sajjad.com ~/.local/share/gnome-shell/extensions/ && gnome-shell-extension-tool --enable-extension usd-irr@sajjad.com && rm -rf usd-irr@sajjad.com
+cd /tmp && git clone (https://github.com/sajjadmeydani-200/USD-IRR-GShell) && mv USD-IRR-Gshell usd-irr@sajjad.com && cp -av usd-irr@sajjad.com ~/.local/share/gnome-shell/extensions/ && gnome-shell-extension-tool --enable-extension usd-irr@sajjad.com && rm -rf usd-irr@sajjad.com
 
 
 
