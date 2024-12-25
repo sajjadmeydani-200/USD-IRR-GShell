@@ -42,7 +42,7 @@ async function handle_request_dollar_api() {
             // Sext text in Widget
             panelButtonText = new St.Label({
             style_class : "cPanelText",
-                text: "(1 USD = " + dollarQuotation + " IRR)",
+                text: "[1 $ = " + Math.floor(dollarQuotation / 10).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + " IRR(T)]",
                 y_align: Clutter.ActorAlign.CENTER,
             });
             panelButton.set_child(panelButtonText);
