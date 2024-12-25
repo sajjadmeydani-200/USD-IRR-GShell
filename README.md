@@ -1,8 +1,8 @@
-# Dollar-PKR
+# Dollar-TRY
 ```
 Gnome-Shell v.(3.38, 40, 41, 42, 43, 44, 45, 46, 47) Extension, for conversion of USD to TRY on the center of the top panel.
 ```
-This is extension is a modified  version of https://github.com/shoaibzs/Dollar-PKR-43 extension to show USD to TRY instead of USD to PKR. 
+This is extension is a modified  version of https://github.com/arifesat/USD-TRY-GShell extension to show USD to IRR instead of USD to TRY. 
 ```
 # Licence
 ```
@@ -11,11 +11,11 @@ See LICENSE File
 # How to install
 ```
 
-Download via Gnome Extension Store: https://extensions.gnome.org/extension/6192/usd-try/
+Download via Gnome Extension Store: https://extensions.gnome.org/extension/7694/usd-irr/
 
 or
 
-cd /tmp && git clone https://github.com/arifesat/USD-TRY-GShell.git && mv USD-TRY-Gshell usd-try-gshell@arifesat.github.com && cp -av usd-try-gshell@arifesat.github.com ~/.local/share/gnome-shell/extensions/ && gnome-shell-extension-tool --enable-extension usd-try-gshell@arifesat.github.com && rm -rf usd-try-gshell@arifesat.github.com
+cd /tmp && git [clone https://github.com/arifesat/USD-TRY-GShell](https://github.com/sajjadmeydani-200/USD-IRR-GShell) && mv USD-IRR-Gshell usd-irr@sajjad.com && cp -av usd-irr@sajjad.com ~/.local/share/gnome-shell/extensions/ && gnome-shell-extension-tool --enable-extension usd-irr@sajjad.com && rm -rf usd-irr@sajjad.com
 
 
 
